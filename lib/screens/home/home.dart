@@ -6,10 +6,6 @@ import 'package:flutter_app2/models/cartitem.dart';
 import 'package:flutter_app2/models/lessons.dart';
 import 'package:flutter_app2/models/useerr.dart';
 import 'package:flutter_app2/models/userr.dart';
-import 'package:flutter_app2/screens/home/appbar.dart';
-import 'package:flutter_app2/screens/home/lessonl_ist.dart';
-import 'package:flutter_app2/screens/home/my_products/products.dart';
-import 'package:flutter_app2/screens/home/settings.dart';
 import 'package:flutter_app2/services/auth.dart';
 import 'package:flutter_app2/utilities/constants.dart';
 import 'package:flutter_app2/screens/authenticate/sign_up_screen.dart';
@@ -17,12 +13,8 @@ import 'package:flutter_calendar_carousel/flutter_calendar_carousel.dart';
 import 'package:flutter_calendar_carousel/flutter_calendar_carousel.dart' show CalendarCarousel, EventList;
 import 'package:flutter_calendar_carousel/classes/event.dart';
 import 'package:flutter_calendar_carousel/classes/event_list.dart';
-import 'package:flutter_app2/screens/home/cart.dart';
 import 'package:flutter_app2/services/database.dart';
 import 'package:provider/provider.dart';
-
-import 'brews_list.dart';
-
 
 class Home extends StatefulWidget{
   @override
